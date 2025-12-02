@@ -328,7 +328,6 @@ footer ul li a:hover {
   color: #ff6b6b;
 }
 
-
 @media (max-width: 768px) {
   .fun-facts {
     grid-template-columns: repeat(2, 1fr);
@@ -365,4 +364,162 @@ footer ul li a:hover {
     max-width: 600px;
     height: auto; 
   }
+}
+
+/*Contact Us Page*/
+.contact-layout {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem; 
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center; 
+}
+
+.contact-form label {
+  align-self: flex-start;
+  font-weight: bold;
+  color: #0077b8;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  max-width: 500px;     
+  padding: 0.5rem;
+  border: 1px solid #b3e0f2;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  height: 120px;        
+}
+
+.subscribe {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  align-self: flex-start;
+  flex-wrap: nowrap;         
+}
+
+.subscribe input[type="checkbox"] {
+  margin: 0;
+}
+
+.subscribe label {
+  margin: 0;
+  white-space: nowrap;      
+}
+
+.contact-form button {
+  background-color: #0077b8;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.contact-form button:hover {
+  background-color: #ff6b6b;
+}
+
+/*Mysteres of the Deep Sea Page*/
+.mysteries-layout {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.intro h2 {
+  color: #0077b8;
+  text-align: center;
+}
+
+.intro p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.mystery-block {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background-color: #f0faff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-bottom: 3rem; 
+}
+
+.mystery-block h3 {
+  color: #0077b8;
+  text-align: center;
+}
+
+.media-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.description-box p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+/*Resource page*/
+.resources-layout {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.resource-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.resource-list li {
+  margin-bottom: 0.75rem;
+}
+
+.resource-list a {
+  color: #0077b8;
+  text-decoration: none;
+}
+
+.resource-list a:hover {
+  text-decoration: underline;
+  color: #ff6b6b;
+}
+
+.resource-list a:link {
+  color: #0077b8;   
+  text-decoration: none;
+}
+
+.resource-list a:visited {
+  color: #5a2d82;   
+}
+
+.resource-list a:hover {
+  text-decoration: underline;
+  color: #ff6b6b;   
+}
+
+.resource-list a:active {
+  color: #003366;   
 }
