@@ -16,6 +16,7 @@
     </div>
     <h1>Blue Depths: Discover the Ocean</h1>
   </header>
+
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
@@ -25,13 +26,17 @@
       <li><a href="mysteries.html">Mysteries of the Deep Sea</a></li>
     </ul>
   </nav>
+
   <main class="contact-layout">
     <h2>Contact / Feedback</h2>
-    <form class="contact-form">
+
+    <form class="contact-form" action="#">
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" required>
+
       <label for="email">Email Address:</label>
       <input type="email" id="email" name="email" required>
+
       <label for="reason">Reason for Contact:</label>
       <select id="reason" name="reason" required>
         <option value="">--Please choose an option--</option>
@@ -40,15 +45,25 @@
         <option value="suggestion">Suggestion</option>
         <option value="other">Other</option>
       </select>
+
       <label for="message">Comment / Message / Question:</label>
       <textarea id="message" name="message" rows="6" required></textarea>
+
       <div class="subscribe">
         <input type="checkbox" id="subscribe" name="subscribe">
         <label for="subscribe">Subscribe for Updates</label>
       </div>
+
       <button type="submit">Submit</button>
     </form>
+
+    <!-- Email link placed at the bottom of the page -->
+    <p style="margin-top:1.5rem;">
+      Prefer email? Reach us directly at 
+      <a href="mailto:blue.depths@gmail.com">blue.depths@gmail.com</a>.
+    </p>
   </main>
+
   <footer>
     <p>&copy; Rogelio Lopez 2025</p>
     <ul>
